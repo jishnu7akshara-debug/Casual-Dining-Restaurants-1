@@ -78,9 +78,9 @@ section{position:relative}
 .hero-title .line:nth-child(2)>span{color:var(--chilli);font-weight:300}
 .hero-sub{max-width:44ch;margin:1.8rem 0 2.2rem;font-size:1.15rem;color:var(--muted)}
 .hero-actions{display:flex;flex-wrap:wrap;gap:.8rem}
-.hero-visual{position:relative;aspect-ratio:1/1;width:100%;max-width:600px;justify-self:center}
-.hero-blob{position:absolute;inset:6%;background:var(--green);border-radius:var(--r-edgy);transform:rotate(-6deg)}
-.hero-plate{position:absolute;inset:12%;border-radius:50%;overflow:hidden;box-shadow:0 40px 80px -30px rgba(23,32,25,.6);border:10px solid var(--pista)}
+.hero-visual{position:relative;aspect-ratio:1/1;width:100%;max-width:560px;justify-self:center}
+.hero-blob{position:absolute;inset:4%;background:var(--green);border-radius:var(--r-edgy);transform:rotate(-6deg)}
+.hero-plate{position:absolute;inset:8%;border-radius:50%;overflow:hidden;box-shadow:0 40px 80px -30px rgba(23,32,25,.6);border:10px solid var(--pista)}
 .hero-plate img{width:100%;height:100%;object-fit:cover;transform:scale(1.15)}
 .hero-chip{position:absolute;width:30%;aspect-ratio:1/1;overflow:hidden;border:6px solid var(--pista);box-shadow:0 24px 40px -20px rgba(23,32,25,.55)}
 .hero-chip img{width:100%;height:100%;object-fit:cover}
